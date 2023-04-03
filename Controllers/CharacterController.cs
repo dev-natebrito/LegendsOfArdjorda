@@ -56,7 +56,8 @@ namespace LegendsOfArdjorda.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Character/5
+        // DELETE: api/Character/5 
+        // teste
         [HttpDelete("{id}")]
         public ActionResult Delete(string id)
         {
